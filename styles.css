@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;/* Sets the font family for the entire document */
     margin: auto; /* Centers content horizontally */
 }
+body{
+    background-color: #ffe0e0 
+} /*  The background color for the website */
 
 .navbar {
     overflow: hidden;
@@ -34,10 +37,11 @@ body {
     text-decoration: none;
 }
 
-img {
-  width: 100%;
-    z-index: 1;
-    
+
+button:hover {
+    background-color: #ff0000; 
+    color: #fff;
+   /* Changes background color on hover */ 
 }
 body {
     font-family: Arial, sans-serif;
@@ -45,22 +49,21 @@ body {
 
 img {
     width: 100%; /* Sets the width of all images to 100% of their container */
+}
 
-}
-.text{
-    font-family: 'Arial', sans-serif;
-    float: right;
-    margin-right:5%;
-    font-size: x-large
-}
 .vid{
     float:right; 
+     margin-right:-1%;
+    width:46%
 } /* Floats the video to the right */
+
 .halfwidth{
-    width:50%;
+    width:48%;
 }  /* Sets the width of elements to 50% of their container */
 
-
+.about {
+    margin-left: 15px;
+} /* Move the text to right*/
 
 
 

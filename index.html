@@ -23,12 +23,17 @@
         <a href="about.html"> About Us</a> <!-- Link to About Us page -->
     </div>
        
-    <div><a class="frontimg" href="about.html"> About Us</a><img src="img/Chinese%20Cuisine.png" alt="copy;Chinese Cuisine"></div> <!-- Image of Chinese Cuisine -->
-        
-    <div class="container"> <!-- Main content container -->
-        <p class="text">What Did People Actually Eat In Ancient China</p> <!-- Text floated to the right -->
+<div style="position: relative; text-align: center;">
+    <img src="img/Chinese%20Cuisine.png" alt="Chinese Cuisine" style="width: 100%; z-index: 1;">
+    <button onclick="location.href='#main-content'" style="position: absolute; top: 65%; left: 50%; transform: translate(-50%, -50%); padding: 10px 20px; background-color: #a02121; color: #fff; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+        Explore Chinese Cuisine
+    </button>
+</div>
+
+
+    <div id="main-content" class="container"> <!-- Main content container -->
         <h1>Chinese Cuisine</h1> <!-- Main heading -->
-        <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/j4tcDm6m4xk" title="Introduction to Chinese Cuisine" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--YouTube video -->
+        <iframe class="vid" height="315" src="https://www.youtube.com/embed/j4tcDm6m4xk" title="Introduction to Chinese Cuisine" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--YouTube video -->
         <p class="halfwidth">Chinese Cuisine is incredibly diverse and rich in history. This website explores the different regional cuisines of China, each with its own unique flavors, ingredients, and cooking techniques.</p> <!-- Paragraph with half width -->
         <p class="halfwidth">Chinese Cuisine comes from history that spans thousands of years. Dating back to the Han Dynasty (206 BC-220 AD), and it is believed that Chinese cuisine began to take shape during the Shang Dynasty (16th-11th century BC)</p> <!-- Another paragraph with half width -->
         
