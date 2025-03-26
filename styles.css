@@ -8,7 +8,8 @@ body{
 
 .navbar {
     overflow: hidden;
-    background-color: #a02121; 
+    background-color: #a02121;
+    border: solid 5px rgba(84, 15, 15, 0.59);
 }/*  The background color of the navbar */
 
 .navbar a {
@@ -55,6 +56,7 @@ img {
     float:right; 
      margin-right:-1%;
     width:46%
+         
 } /* Floats the video to the right */
 
 .halfwidth{
@@ -64,6 +66,16 @@ img {
 .about {
     margin-left: 15px;
 } /* Move the text to right*/
+
+.about img{
+    border-radius:10%;
+    border: solid 5px #1d1d1d; /* border out line*/
+}
+
+.img{
+    margin-left: 2%;
+    
+}
 
 
 
